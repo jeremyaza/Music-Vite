@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Red+Hat+Display:wght@300;400&display=swap");
 
 $bg-color: #e0e5ec;
-$text-color: #636d79;
+$text-color: #1b1919;
 
 * {
   margin: 0;
@@ -17,6 +17,7 @@ $text-color: #636d79;
   color: $text-color;
   background-color: $bg-color;
   font-synthesis: none;
+  --accent-text-color: #636d79;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -36,6 +37,8 @@ strong {
 }
 
 button {
+  outline: none;
   cursor: pointer;
   font-family: inherit;
+  -webkit-tap-highlight-color: transparent;
 }
